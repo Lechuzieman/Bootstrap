@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+	font-family: 'Roboto Mono', monospace;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.bg-nav{
+    background-color: rgb(27, 16, 14);
+}
+
+.btn-bordo{
+    color: #fff;
+    background-color: rgb(27, 16, 14);
+    border-color: rgb(27, 16, 14);
+}
+
+.btn-bordo:hover{
+    color: #fff;
+    background-color: rgb(46, 31, 28);
+    border-color: rgb(46, 31, 28);
+    transform: scale(0.9);
+}
+
+footer{
+    width: 100%;
+    background: rgb(46, 31, 28);
+    height: 100px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.anchoFooter{
+    margin-top: 30px;
+}
+
+.redes{
+    display: inline-block;
+}
+
+.bi-facebook{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.bi-facebook:hover{
+	color: #4973de;
+}
+
+.bi-instagram{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.bi-instagram:hover{
+	color: #b3354a;
+}
+
+.bi-whatsapp{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.bi-whatsapp:hover{
+	color: #67de49;
+}
